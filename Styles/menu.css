@@ -1,6 +1,68 @@
 body {
-    background-image: url("../Images/menubackground.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url("../Images/menubackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  color: var(--black);
+  background-color: var(--transparent);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.scroll-bar {
+  background-color: var(--white);
+  height: 25rem;
+  width: 100%;
+}
+
+.item-box {
+    background-color: grey;
+    width: 20rem; /* Or a specific width, e.g., 300px */
+    height: auto; /* Or a specific height, e.g., 200px */
+    padding: 1rem;
+    color: var(--black);
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text inside the box */
+    font-style: bold;
   }
+  
+  .item-box img {
+    max-width: 80%; /* Ensure the image doesn't exceed the container's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 1rem;
+  }
+  
+  .item-box h3,
+  .item-box p {
+    margin: 0.5rem 0; /* Add spacing between text elements */
+  }
+  
+  .price-button-box {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Add space between the button and price */
+    width: 100%; /* Ensure the button and price span the full width */
+    margin-top: 1rem; /* Add spacing above the button-price row */
+    padding: 0rem 2rem;
+  }
+  
+  .item-price {
+    font-size: 1.5rem; /* Adjust font size for the price */
+    color: var(--black); /* Ensure the price is visible */
+  }
+  
+  .price-button-box button {
+    font-family: "Italiana";
+    padding: 0.5rem 1rem; /* Add padding to the button */
+    background-color: var(--primary); /* Set button background color */
+    color: var(--black); /* Set button text color */
+    border: none; /* Remove border */
+    border-radius: 0.5rem; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
