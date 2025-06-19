@@ -1,0 +1,145 @@
+:root {
+  --primary: #839c89;
+  --medium: #647968;
+  --dark: #455c4a;
+  --grey: #bdbdbd;
+  --white: #f0f0f0;
+  --black: #000000;
+  --shadow: 0 1px 5px rgba(73, 73, 73, 0.8);
+  --textShadow: 3px 3px 4px #000;
+  --transparent: rgba(0, 0, 0, 0.5);
+}
+
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Italiana";
+  color: var(--primary);
+}
+
+body {
+  background: var(--primary);
+  margin: 30px 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: grid;
+  gap: 20px;
+}
+
+/*navigation*/
+
+.main-nav {
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow);
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black);
+  padding: 0.5%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+#nav-logo {
+  height: 5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav-list ul {
+  list-style-type: none;
+}
+
+.nav-list a {
+  color: var(--black);
+  padding: 2.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: var(--dark);
+}
+
+/* header
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* footer */
+
+/* .main-footer {
+  background-color: var(--dark);
+  color: var(--white);
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+  margin-top: 2rem;
+  letter-spacing: 0.05rem;
+}
+
+.main-footer p {
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .main-nav ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .main-footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-nav ul {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .main-footer {
+    font-size: 0.8rem;
+  }
+
+  .header {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+} */
