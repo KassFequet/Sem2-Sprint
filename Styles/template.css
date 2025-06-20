@@ -26,11 +26,11 @@
 html {
   box-sizing: border-box;
   font-family: "Italiana";
-  color: var(--primary);
+  color: var(--dark);
 }
 
 body {
-  background: var(--primary);
+  background: var(--dark);
 }
 
 img {
@@ -47,9 +47,9 @@ img {
 
 .main-nav {
   background-color: var(--white);
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 100; */
   box-shadow: var(--shadow);
   font-size: 2rem;
   font-weight: bold;

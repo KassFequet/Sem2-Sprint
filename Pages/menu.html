@@ -1,4 +1,4 @@
-<!--Kassaundra Fequet-->
+<!-- Kassaundra Fequet -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +13,6 @@
       rel="stylesheet"
       href="../Styles/template.css"
     />
-
     <link
       rel="stylesheet"
       href="../Styles/menu.css"
@@ -33,8 +32,10 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="wrapper">
+      <!-- Navigation -->
       <section class="main-nav">
         <nav>
           <img
@@ -51,245 +52,458 @@
           </ul>
         </nav>
       </section>
+
+      <!-- Menu Header -->
       <section class="menu-header">
         <header>
-            <h1>Menu</h1>
+          <h1>Menu</h1>
         </header>
-
       </section>
+
       <main>
+        <!-- Breakfast Section -->
+        <section class="menu-category">
+          <h2>Breakfast</h2>
+        </section>
 
-              <div class="scroll-bar">
-                <div class="item-box">
-                    <img src="../Images/Menu/tropicalpowerbowl.jpg" alt="acai bowl in blue mug">
-                    <h3>Tropical Power Bowl</h3>
-                    <p class="item-desc">Creamy açai topped with banana, mango, walnuts & coconut flakes</p>
-    
-                    <div class="price-button-box">
-                    <span class="item-price">$12</span>
-                    <button>Add to Order</button>
-                </div>
-              </div>
-    
-                  <div class="item-box">
-                      <img src="../Images/Menu/loxbenedict.jpg" alt="lox benedict">
-                      <h3>Lox Benedict</h3>
-                      <p class="item-desc">Eggs Benedict served with lox, fresh greens & cream cheese</p>
-      
-                      <div class="price-button-box">
-                      <span class="item-price">$15</span>
-                      <button>Add to Order</button>
-                      </div>
-                  </div>
-    
-                    <div class="item-box">
-                        <img src="../Images/Menu/harvestandcrunch.jpg" alt="yogurt with granola and fruit">
-                        <h3>Harvest & Crunch</h3>
-                        <p class="item-desc">Yogurt topped with house-made granola & seasonal fruit</p>
-        
-                        <div class="price-button-box">
-                        <span class="item-price">$8</span>
-                        <button>Add to Order</button>
-                    </div>
-                  </div>
-    
-                      <div class="item-box">
-                          <img src="../Images/Menu/theveggiestack.jpg" alt="vegetables with an egg and toast">
-                          <h3>The Veggie Stack</h3>
-                          <p class="item-desc">A hearty mix of vegetables with a poached egg & rye toast</p>
-          
-                          <div class="price-button-box">
-                          <span class="item-price">$10</span>
-                          <button>Add to Order</button>
-                      </div>
-                    </div>
-    
-                        <div class="item-box">
-                            <img src="../Images/Menu/berryblisscakes.jpg" alt="pancakes with berries and maple syrup">
-                            <h3>Berry Bliss Cakes</h3>
-                            <p class="item-desc">Whole wheat pancakes topped with fresh berries & maple syrup</p>
-            
-                            <div class="price-button-box">
-                            <span class="item-price">$13</span>
-                            <button>Add to Order</button>
-                        </div>
-                      </div>
-                  </div>
+        <div class="scroll-bar">
+          <div class="item-box">
+            <img
+              src="../Images/Menu/tropicalpowerbowl.jpg"
+              alt="acai bowl in blue mug"
+            />
+            <h3>Tropical Power Bowl</h3>
+            <p class="item-desc">
+              Creamy açai topped with banana, mango, walnuts & coconut flakes
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$12</span>
+              <button
+                class="order-button"
+                data-item="Topical Power Bowl"
+                data-price="12.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
 
-                  <div class="scroll-bar">
-                    <div class="item-box">
-                        <img src="../Images/Menu/capresesalad.jpg" alt="caprese salad">
-                        <h3>Caprese Salad</h3>
-                        <p class="item-desc">Fresh tomatoes mixed with basic & home-made bread crumbs</p>
-        
-                        <div class="price-button-box">
-                        <span class="item-price">$10</span>
-                        <button>Add to Order</button>
-                    </div>
-                  </div>
-        
-                      <div class="item-box">
-                          <img src="../Images/Menu/thebutchersskewer.jpg" alt="meat skewer with salad and bread">
-                          <h3>The Butcher's Skewer</h3>
-                          <p class="item-desc">Local butcher's beed skewer served with fresh bread & salad</p>
-          
-                          <div class="price-button-box">
-                          <span class="item-price">$16</span>
-                          <button>Add to Order</button>
-                          </div>
-                      </div>
-        
-                        <div class="item-box">
-                            <img src="../Images/Menu/charredbeantacos.jpg" alt="3 bean tacos">
-                            <h3>Harvest & Crunch</h3>
-                            <p class="item-desc">Smokey black beans in soft tortillas with fresh vegetables</p>
-            
-                            <div class="price-button-box">
-                            <span class="item-price">$11</span>
-                            <button>Add to Order</button>
-                        </div>
-                      </div>
-        
-                          <div class="item-box">
-                              <img src="../Images/Menu/theartisansplatter.jpg" alt="a charcuterie board of meat, cheese and olives">
-                              <h3>The Artisan's Platter</h3>
-                              <p class="item-desc">A crafed selection of local meats, cheese & accompaniments</p>
-              
-                              <div class="price-button-box">
-                              <span class="item-price">$17</span>
-                              <button>Add to Order</button>
-                          </div>
-                        </div>
-        
-                            <div class="item-box">
-                                <img src="../Images/Menu/gardentofuclub.jpg" alt="vegetable tofu sandwich with salad">
-                                <h3>Garden Tofu Club</h3>
-                                <p class="item-desc">Marinated tofu & veggies on fresh bread with a garden salad</p>
-                
-                                <div class="price-button-box">
-                                <span class="item-price">$12</span>
-                                <button>Add to Order</button>
-                            </div>
-                          </div>
-                      </div>
+          <div class="item-box">
+            <img
+              src="../Images/Menu/loxbenedict.jpg"
+              alt="lox benedict"
+            />
+            <h3>Lox Benedict</h3>
+            <p class="item-desc">
+              Eggs Benedict served with lox, fresh greens & cream cheese
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$15</span>
+              <button
+                class="order-button"
+                data-item="Lox Benedict"
+                data-price="15.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
 
-                      <div class="scroll-bar">
-                        <div class="item-box">
-                          <img src="../Images/Menu/veganfudgebrownie.jpg" alt="brownie with whipped cream and berries">
-                          <h3>Vegan Fudge Brownie</h3>
-                          <p class="item-desc">Rich vegan brownie topped with oat whipped cream & berries</p>
-          
-                          <div class="price-button-box">
-                          <span class="item-price">$4</span>
-                          <button>Add to Order</button>
-                      </div>
-                    </div>
+          <div class="item-box">
+            <img
+              src="../Images/Menu/harvestandcrunch.jpg"
+              alt="yogurt with granola and fruit"
+            />
+            <h3>Harvest & Crunch</h3>
+            <p class="item-desc">
+              Yogurt topped with house-made granola & seasonal fruit
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$8</span>
+              <button
+                class="order-button"
+                data-item="Harvest & Crunch"
+                data-price="8.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
 
-                        <div class="item-box">
-                            <img src="../Images/Menu/raspberrychiadelight.jpg" alt="raspberry cia pudding layered with yogurt">
-                            <h3>Raspberry Chia Delight</h3>
-                            <p class="item-desc">Raspberry chia pudding layered with yogurt & fresh raspberries</p>
-            
-                            <div class="price-button-box">
-                            <span class="item-price">$6</span>
-                            <button>Add to Order</button>
-                        </div>
-                      </div>
-            
-                          <div class="item-box">
-                              <img src="../Images/Menu/datepowerbite.jpg" alt="rolled balled of dates and nuts">
-                              <h3>Date Power Bite</h3>
-                              <p class="item-desc">Naturally sweet balls made with dates, peanut butter & oats</p>
-              
-                              <div class="price-button-box">
-                              <span class="item-price">$3</span>
-                              <button>Add to Order</button>
-                              </div>
-                          </div>
-            
-                            <div class="item-box">
-                                <img src="../Images/Menu/seasonalorchardplate.jpg" alt="plate of assorted fruit">
-                                <h3>Seasonal Orchard Plate</h3>
-                                <p class="item-desc">A vibrant selection of locally sourced seasonal fruit</p>
-                
-                                <div class="price-button-box">
-                                <span class="item-price">$9</span>
-                                <button>Add to Order</button>
-                            </div>
-                          </div>
-            
-                              <div class="item-box">
-                                  <img src="../Images/Menu/blueberrypatchmuffin.jpg" alt="vegetables with an egg and toast">
-                                  <h3>Blueberry Patch Muffin</h3>
-                                  <p class="item-desc">A soft & fluffy muffin loaded with fresh blueberries</p>
-                  
-                                  <div class="price-button-box">
-                                  <span class="item-price">$4</span>
-                                  <button>Add to Order</button>
-                              </div>
-                            </div>
-                          </div>
+          <div class="item-box">
+            <img
+              src="../Images/Menu/theveggiestack.jpg"
+              alt="vegetables with an egg and toast"
+            />
+            <h3>The Veggie Stack</h3>
+            <p class="item-desc">
+              A hearty mix of vegetables with a poached egg & rye toast
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$10</span>
+              <button
+                class="order-button"
+                data-item="The Veggie Stack"
+                data-price="10.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
 
-
-                          <div class="scroll-bar">
-                            <div class="item-box">
-                              <img src="../Images/Menu/dripcoffee.jpg" alt="black coffee in white mug">
-                              <h3>Drip Coffee</h3>
-                              <p class="item-desc">Smooth & rich freshly brewed drip coffee</p>
-              
-                              <div class="price-button-box">
-                              <span class="item-price">$3.50</span>
-                              <button>Add to Order</button>
-                          </div>
-                        </div>
-    
-                            <div class="item-box">
-                                <img src="../Images/Menu/premiumheartlatte.jpg" alt="latte with heart design">
-                                <h3>Premium Heart Latte</h3>
-                                <p class="item-desc">Creamy espresso latte lovingly crafted in-house</p>
-                
-                                <div class="price-button-box">
-                                <span class="item-price">$6</span>
-                                <button>Add to Order</button>
-                            </div>
-                          </div>
-                
-                              <div class="item-box">
-                                  <img src="../Images/Menu/midnightcoldbrew.jpg" alt="cold coffe in a glass">
-                                  <h3>Midnight Cold Brew</h3>
-                                  <p class="item-desc">Overnight steeped cold brew with a crisp taste</p>
-                  
-                                  <div class="price-button-box">
-                                  <span class="item-price">$4.50</span>
-                                  <button>Add to Order</button>
-                                  </div>
-                              </div>
-                
-                                <div class="item-box">
-                                    <img src="../Images/Menu/deeproastespresso.jpg" alt="espresso shot in a small mug">
-                                    <h3>Deep Roast Espresso</h3>
-                                    <p class="item-desc">A concentrated & robust shot of espresso</p>
-                    
-                                    <div class="price-button-box">
-                                    <span class="item-price">$3</span>
-                                    <button>Add to Order</button>
-                                </div>
-                              </div>
-                
-                                  <div class="item-box">
-                                      <img src="../Images/Menu/greenglowlatte.jpg" alt="matcha latte with heart design">
-                                      <h3>Green Glow Latte</h3>
-                                      <p class="item-desc">Matcha whished into smooth milk with a touch of sweetness</p>
-                      
-                                      <div class="price-button-box">
-                                      <span class="item-price">$5</span>
-                                      <button>Add to Order</button>
-                                  </div>
-                                </div>
-                              </div>
-
+          <div class="item-box">
+            <img
+              src="../Images/Menu/berryblisscakes.jpg"
+              alt="pancakes with berries and maple syrup"
+            />
+            <h3>Berry Bliss Cakes</h3>
+            <p class="item-desc">
+              Whole wheat pancakes topped with fresh berries & maple syrup
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$13</span>
+              <button
+                class="order-button"
+                data-item="Berry Bliss Cake"
+                data-price="13.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
         </div>
 
+        <!-- Lunch Section -->
+        <section class="menu-category">
+          <h2>Lunch</h2>
+        </section>
+
+        <div class="scroll-bar">
+          <div class="item-box">
+            <img
+              src="../Images/Menu/capresesalad.jpg"
+              alt="caprese salad"
+            />
+            <h3>Caprese Salad</h3>
+            <p class="item-desc">
+              Fresh tomatoes mixed with basil & house-made bread crumbs
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$10</span>
+              <button
+                class="order-button"
+                data-item="Caprese Salad"
+                data-price="10.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/thebutchersskewer.jpg"
+              alt="meat skewer with salad and bread"
+            />
+            <h3>The Butcher's Skewer</h3>
+            <p class="item-desc">
+              Local butcher's beef skewer served with fresh bread & salad
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$16</span>
+              <button
+                class="order-button"
+                data-item="The Butcher's Skewer"
+                data-price="16.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/charredbeantacos.jpg"
+              alt="3 bean tacos"
+            />
+            <h3>Charred Bean Tacos</h3>
+            <p class="item-desc">
+              Smokey black beans in soft tortillas with fresh vegetables
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$11</span>
+              <button
+                class="order-button"
+                data-item="Charred Bean Tacos"
+                data-price="11.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/theartisansplatter.jpg"
+              alt="charcuterie board of meat, cheese and olives"
+            />
+            <h3>The Artisan's Platter</h3>
+            <p class="item-desc">
+              A crafted selection of local meats, cheeses & accompaniments
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$17</span>
+              <button
+                class="order-button"
+                data-item="The Artisan's Platter"
+                data-price="17.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/gardentofuclub.jpg"
+              alt="vegetable tofu sandwich with salad"
+            />
+            <h3>Garden Tofu Club</h3>
+            <p class="item-desc">
+              Marinated tofu & veggies on fresh bread with a garden salad
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$12</span>
+              <button
+                class="order-button"
+                data-item="Garden Tofu Club"
+                data-price="12.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sweets Section -->
+        <section class="menu-category">
+          <h2>Sweets</h2>
+        </section>
+
+        <div class="scroll-bar">
+          <div class="item-box">
+            <img
+              src="../Images/Menu/veganfudgebrownie.jpg"
+              alt="brownie with whipped cream and berries"
+            />
+            <h3>Vegan Fudge Brownie</h3>
+            <p class="item-desc">
+              Rich vegan brownie topped with oat whipped cream & berries
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$4</span>
+              <button
+                class="order-button"
+                data-item="Vegan Fudge Brownie"
+                data-price="4.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/raspberrychiadelight.jpg"
+              alt="raspberry chia pudding layered with yogurt"
+            />
+            <h3>Raspberry Chia Delight</h3>
+            <p class="item-desc">
+              Raspberry chia pudding layered with yogurt & fresh raspberries
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$6</span>
+              <button
+                class="order-button"
+                data-item="Raspberry Chia Delight"
+                data-price="6.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/datepowerbite.jpg"
+              alt="rolled balls of dates and nuts"
+            />
+            <h3>Date Power Bite</h3>
+            <p class="item-desc">
+              Naturally sweet balls made with dates, peanut butter & oats
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$3</span>
+              <button
+                class="order-button"
+                data-item="Date Power Bites"
+                data-price="3.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/seasonalorchardplate.jpg"
+              alt="plate of assorted fruit"
+            />
+            <h3>Seasonal Orchard Plate</h3>
+            <p class="item-desc">
+              A vibrant selection of locally sourced seasonal fruit
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$9</span>
+              <button
+                class="order-button"
+                data-item="Seasonal Orchard Plate"
+                data-price="9.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/blueberrypatchmuffin.jpg"
+              alt="blueberry muffin"
+            />
+            <h3>Blueberry Patch Muffin</h3>
+            <p class="item-desc">
+              A soft & fluffy muffin loaded with fresh blueberries
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$4</span>
+              <button
+                class="order-button"
+                data-item="Blueberry Patch Muffin"
+                data-price="4.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Drinks Section -->
+        <section class="menu-category">
+          <h2>Drinks</h2>
+        </section>
+
+        <div class="scroll-bar">
+          <div class="item-box">
+            <img
+              src="../Images/Menu/dripcoffee.jpg"
+              alt="black coffee in white mug"
+            />
+            <h3>Drip Coffee</h3>
+            <p class="item-desc">Smooth & rich freshly brewed drip coffee</p>
+            <div class="price-button-box">
+              <span class="item-price">$3.50</span>
+              <button
+                class="order-button"
+                data-item="Drip Coffee"
+                data-price="3.50"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/premiumheartlatte.jpg"
+              alt="latte with heart design"
+            />
+            <h3>Premium Heart Latte</h3>
+            <p class="item-desc">
+              Creamy espresso latte lovingly crafted in-house
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$6</span>
+              <button
+                class="order-button"
+                data-item="Premium Heart Lattee"
+                data-price="6.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/midnightcoldbrew.jpg"
+              alt="cold coffee in a glass"
+            />
+            <h3>Midnight Cold Brew</h3>
+            <p class="item-desc">
+              Overnight steeped cold brew with a crisp taste
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$4.50</span>
+              <button
+                class="order-button"
+                data-item="Midnight Cold Brew"
+                data-price="4.50"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/deeproastespresso.jpg"
+              alt="espresso shot in a small mug"
+            />
+            <h3>Deep Roast Espresso</h3>
+            <p class="item-desc">A concentrated & robust shot of espresso</p>
+            <div class="price-button-box">
+              <span class="item-price">$3</span>
+              <button
+                class="order-button"
+                data-item="Deep Roast Espresso"
+                data-price="3.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+
+          <div class="item-box">
+            <img
+              src="../Images/Menu/greenglowlatte.jpg"
+              alt="matcha latte with heart design"
+            />
+            <h3>Green Glow Latte</h3>
+            <p class="item-desc">
+              Matcha whisked into smooth milk with a touch of sweetness
+            </p>
+            <div class="price-button-box">
+              <span class="item-price">$5</span>
+              <button
+                class="order-button"
+                data-item="Green Glow Latte"
+                data-price="5.00"
+              >
+                Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
       </main>
 
       <footer class="main-footer"></footer>
