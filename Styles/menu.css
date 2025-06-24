@@ -116,3 +116,71 @@ header {
 .price-button-box button:hover {
   background-color: var(--medium);
 }
+
+/* Responsive media */
+@media (max-width: 1000px) {
+  /* .image-gallery {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .audio-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .media-audio {
+    width: 100%;
+  }
+
+  .video-titles {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .video-iframe {
+    flex-direction: column;
+    gap: 15px;
+  } */
+}
+
+@media (max-width: 600px) {
+  /* .image-gallery {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .audio-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .media-audio {
+    width: 100%;
+  }
+
+  .video-titles {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .video-iframe {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  } */
+}
