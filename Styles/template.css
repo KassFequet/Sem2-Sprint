@@ -89,34 +89,37 @@ nav {
   color: var(--dark);
 }
 
-/* header
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 /* footer */
 
-/* .main-footer {
-  background-color: var(--dark);
-  color: var(--white);
-  text-align: center;
-  padding: 1.5rem 0;
-  font-size: 1.1rem;
+.main-footer {
+  background-color: var(--white);
+  color: var(--black);
   box-shadow: var(--shadow);
   margin-top: 2rem;
-  letter-spacing: 0.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
 }
 
-.main-footer p {
-  margin: 0;
+.footer-left-city{
+  margin-left: -4rem;
 }
 
-@media (max-width: 1000px) {
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -5rem;
+}
+.footer-right img {
+  height: 4rem;
+  margin: 0 1rem;
+}
+
+
+/*@media (max-width: 1000px) {
   .main-nav ul {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
