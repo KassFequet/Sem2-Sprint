@@ -1,3 +1,5 @@
+/*Kassaundra Fequet */
+
 .wrapper {
   display: grid;
 }
@@ -80,7 +82,7 @@ header {
 
 .item-box h3 {
   text-decoration: underline;
-  margin: 0.5rem 0 0.3rem 0;
+  margin: 0.5rem 0;
   font-size: 1.5rem;
 }
 
@@ -117,70 +119,58 @@ header {
   background-color: var(--medium);
 }
 
-/* Responsive media */
 @media (max-width: 1000px) {
-  /* .image-gallery {
-    flex-direction: column;
-    gap: 15px;
-  }
 
-  .image-gallery img {
+  html, body {
     width: 100%;
-    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 
-  .audio-container {
-    flex-direction: column;
-    gap: 15px;
+  header {
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: .5rem 0;
   }
 
-  .media-audio {
+  .menu-category {
+    font-size: 2rem;
+  }
+
+  .scroll-bar {
     width: 100%;
+    margin: 2rem 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .video-titles {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .video-iframe {
-    flex-direction: column;
-    gap: 15px;
-  } */
 }
 
 @media (max-width: 600px) {
-  /* .image-gallery {
-    flex-direction: column;
-    gap: 10px;
-  }
 
-  .image-gallery img {
+  html, body {
     width: 100%;
-    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
 
-  .audio-container {
-    flex-direction: column;
-    gap: 10px;
+  header {
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin: .5rem 0;
   }
 
-  .media-audio {
+  .menu-category {
+    font-size: 1.5rem;
+  }
+
+  .scroll-bar {
     width: 100%;
+    margin: 1.5rem 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .video-titles {
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .video-iframe {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  iframe {
-    width: 100%;
-    height: auto;
-  } */
 }
