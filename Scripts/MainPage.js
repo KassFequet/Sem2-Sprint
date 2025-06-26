@@ -4,10 +4,10 @@
 let step = 0;
 let Images = new Array();   // initialize array
 
-Images[0] = "Images/Main/Coffee.jpg";
-Images[1] = "Images/Main/Barista.jpg";
-Images[2] = "Images/Main/Inside.jpg";
-Images[3] = "Images/Main/Outside.jpg";
+Images[0] = "../Images/Main/Coffee.jpg";
+Images[1] = "../Images/Main/Barista.jpg";
+Images[2] = "../Images/Main/Inside.jpg";
+Images[3] = "../Images/Main/Outside.jpg";
 
 window.onload = function () {
   gallery();                        // Show first image immediately
