@@ -538,7 +538,7 @@
             required
           />
 
-          <label for="address">Street Address</label>
+          <label for="address">Delivery Address</label>
           <input
             type="text"
             id="address"
@@ -546,7 +546,12 @@
             required
           />
 
-          <button type="submit">Place Order</button>
+          <button
+            type="submit"
+            id="placeOrder"
+          >
+            Place Order
+          </button>
         </div>
 
         <div class="order-summary">
@@ -561,13 +566,22 @@
               <p id="totalPrice"></p>
             </div>
           </div>
-
-          <button id="calculateTotal">Calculate Total</button>
+          <button
+            class="clear-order"
+            id="clearOrder"
+          >
+            Clear Order
+          </button>
+          <button
+            class="calculate-total"
+            id="calculateTotal"
+          >
+            Calculate Total
+          </button>
         </div>
       </section>
 
       <footer class="main-footer">
-
         <div class="footer-left">
           <address>123 Water Street</address>
           <address>321 Bean Blvd</address>
